@@ -1,4 +1,4 @@
 LIBDIR=/usr/lib
 
 install:
-	gcc -Wall -I/usr/include/mysql -I. -shared lib_mysqludf_sys.c -o $(LIBDIR)/lib_mysqludf_sys.so
+	gcc -fPIC -std=c++11 -shared -I/usr/include/mysql -I. lib_mysqludf_sys.cc -o /usr/lib/mysql/plugin/lib_mysqludf_sys.so 
