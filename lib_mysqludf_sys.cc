@@ -19,9 +19,8 @@
 	License along with this library; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-	05-2019 Pasada a cc per Xavi Meneses per a Corporacion Legal
+	05-2019 Updated to mysql 8 by Xavi Meneses 
 
-	Compatible amb mysql 8.0
 */
 
 #include <assert.h>
